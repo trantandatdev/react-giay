@@ -17,7 +17,7 @@ export default class ItemShoe extends Component {
             >
               Add
             </button>
-            <button className="btn btn-info">View</button>
+            <button onClick={()=>{this.props.handleDetail(this.props.item)}} className="btn btn-info">View</button>
           </p>
         </div>
       </div>
